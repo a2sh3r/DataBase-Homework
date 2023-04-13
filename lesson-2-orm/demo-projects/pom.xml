@@ -12,6 +12,5 @@
 
     <modules>
         <module>spring-jdbc-demo</module>
-        <module>spring-jpa-ineritance-demo</module>
     </modules>
 </project>

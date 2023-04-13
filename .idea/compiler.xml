@@ -8,13 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="orm-exercise" />
+        <module name="jdbc-demo-solution-final" />
         <module name="spring-jdbc-demo" />
         <module name="jdbc-demo-exercise" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo-projects" target="1.5" />
+      <module name="jdbc-class-work" target="1.5" />
       <module name="jdbc-demo-exercise" target="17" />
+      <module name="jdbc-demo-solution-final" target="17" />
       <module name="orm-exercise" target="17" />
       <module name="orm-solution-final" target="17" />
       <module name="spring-jdbc-demo" target="17" />
@@ -23,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="jdbc-demo-exercise" options="-parameters" />
+      <module name="jdbc-demo-solution-final" options="-parameters" />
       <module name="orm-exercise" options="-parameters" />
       <module name="orm-solution-final" options="-parameters" />
       <module name="spring-jdbc-demo" options="-parameters" />

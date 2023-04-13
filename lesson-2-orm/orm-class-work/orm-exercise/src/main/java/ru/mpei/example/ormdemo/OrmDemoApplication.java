@@ -42,6 +42,22 @@ public class OrmDemoApplication {
 		entityManager.getTransaction().begin();
 		entityManager.persist(student);
 
+		Student student2 = new Student();
+		student2.setName("Sergey2");
+
+		Avatar avatar2 = new Avatar();
+		avatar2.setPhotoUrl("my_photo2");
+
+		EMail eMail22 = new EMail();
+		eMail22.setEmail("student_email2");
+		List<EMail> eMail2 = List.of(eMail22, eMail);
+
+		student2.setEmails(eMail2);
+		student2.setAvatar(avatar2);
+
+		entityManager.persist(student2);
+
+
 		entityManager.getTransaction().commit();
 
 		Console.main(args);
