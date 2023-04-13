@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaProjects.iml" filepath="$PROJECT_DIR$/.idea/JavaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson-1-jdbc/jdbc-demo-exercise/jdbc-demo-exercise.iml" filepath="$PROJECT_DIR$/lesson-1-jdbc/jdbc-demo-exercise/jdbc-demo-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson-2-orm/orm-class-work/orm-exercise/orm-exercise.iml" filepath="$PROJECT_DIR$/lesson-2-orm/orm-class-work/orm-exercise/orm-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson-2-orm/demo-projects/spring-jdbc-demo/spring-jdbc-demo.iml" filepath="$PROJECT_DIR$/lesson-2-orm/demo-projects/spring-jdbc-demo/spring-jdbc-demo.iml" />
     </modules>
   </component>
 </project>
